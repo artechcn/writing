@@ -1,3 +1,6 @@
+- name: 首页
+  href: articles/toc.yml
+  topicHref: articles/index.md
 - name: 文档编写指南
   href: articles/
 - name: Demo文档
