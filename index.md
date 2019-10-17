@@ -4,10 +4,10 @@
 文档编写指南
 ---
 
-点击这里查看[文档编写指南](articles/index.md)
+[点击这里查看文档编写指南](articles/index.md)
 
 
 演示文档
 ---
 
-点击这里查看[演示文档](python/python-sdk-azure-overview.md)
+[点击这里查看演示文档](python/python-sdk-azure-overview.md)

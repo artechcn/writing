@@ -4,7 +4,7 @@
 
 本工作流是适合程序员等技术人员进行写作的工作方式，可以方便地借助于Git、MArkdown等工具和语言，编写逻辑复杂的文档，同时特别适合于文档内容中包含复杂的程序代码。
 
-本系统的特点
+本工作流的特点
 ---
 
 - 使用标准通用开源的格式和工具，不自行开发非标准的格式和功能。
@@ -37,7 +37,7 @@ mardown语法
 ---
 
 1. 本系统使用的是与GFM（Github风格Markdown）100%兼容的DFM，[基本语法参考这里](articles/dfm_user_guide.md)。
-2. DFM比GM增加的特性参见<https://github.github.com/gfm/>。
+2. DFM比GFM增加的特性参见<https://github.github.com/gfm/>。
 3. 最终效果可以参考一个[包含三章内容的演示文档](python/)。
 
 文档的组织方式
