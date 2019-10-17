@@ -1,0 +1,6 @@
+- name: DFM风格的markdown简明语法说明
+  href: dfm_user_guide.md
+- name: 如何修改目录结构
+  href: wiki_user_guide.md
+- name: 下载PDF文档
+  href: ../_pdf_site/knowledge_articles.pdf

@@ -1,0 +1,21 @@
+node {
+    try {
+        stage('Checkout') {
+            checkout scm
+        }
+        stage('Build') {
+            bat "\"${docfx}\" docfx.json --build"
+        }
+    } catch (e) {
+        powershell 'Write-Output "-------------------Exception happens---------------------------------------------------"'
+        String recipient = 'yaow@artech.cn'
+        String mailfrom = 'jenkins@artech.cn'
+        String error = "${e}"
+        mail subject: "${env.JOB_NAME} (${env.BUILD_NUMBER}) failed",
+            body: "It appears that ${env.BUILD_URL} is failing. <br>Error message: ${error}",
+            to: recipient,
+            replyTo: mailfrom,
+            from: mailfrom,
+            mimeType: 'text/html'
+    }
+}
