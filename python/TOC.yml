@@ -62,3 +62,5 @@
       href: python-sdk-azure-operation-config.md
     - name: 多云开发
       href: python-sdk-azure-multi-cloud.md
+- name: 下载文档（PDF）
+  href: ../_pdf_site/writing_python.pdf
