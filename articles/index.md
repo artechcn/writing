@@ -36,9 +36,9 @@
 mardown语法
 ---
 
-1. 本系统使用的是与GFM（Github风格Markdown）100%兼容的DFM，[基本语法参考这里](articles/dfm_user_guide.md)。
+1. 本系统使用的是与GFM（Github风格Markdown）100%兼容的DFM，[基本语法参考这里](dfm_user_guide.md)。
 2. DFM比GFM增加的特性参见<https://github.github.com/gfm/>。
-3. 最终效果可以参考一个[包含三章内容的演示文档](python/)。
+3. 最终效果可以参考一个[包含三章内容的演示文档](../python/python-sdk-azure-overview.md)。
 
 文档的组织方式
 ---
